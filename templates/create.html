@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block title %}
+Add Artical
+{% endblock %}
+
+{% block content %}
+<main>
+    <section>
+
+        <div class="container">
+
+            <div class="create-title">
+
+                <h1>Lorem ipsum dolor sit amet.</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, distinctio.</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="create-one">
+        <div class="container">
+            
+            <div class="create-inner">
+
+                <form method="post" class="form-control">
+                    <input type="text" name="title" placeholder="Enter the name Article" class="form-name"><br>
+                    <input type="type" name="intro" placeholder="Enter the author Article" class="form-title"><br>
+                    <input type="text" name="text" placeholder="Enter the text Article" class="form-text"><br>
+                    <button class="btn-success" type="submit">Add</button>
+
+                    <!-- <textarea name="title" id="name-art" placeholder="Enter the name Artical"></textarea>
+                    <textarea name="intro" id="title-art" placeholder="Enter the name Artical"></textarea>
+                    <textarea name="text" id="text-art" placeholder="Enter the name Artical"></textarea>
+                    <button class="btn-success" type="submit">Add</button> -->
+                </form>
+
+            </div>
+
+        </div>
+    </section>
+</main>
+
+
+{% endblock %}
